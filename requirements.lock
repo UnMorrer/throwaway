@@ -9,3 +9,15 @@
 #   generate-hashes: false
 
 -e file:.
+annotated-types==0.7.0
+    # via pydantic
+pydantic==2.12.5
+    # via throwaway
+pydantic-core==2.41.5
+    # via pydantic
+typing-extensions==4.15.0
+    # via pydantic
+    # via pydantic-core
+    # via typing-inspection
+typing-inspection==0.4.2
+    # via pydantic
